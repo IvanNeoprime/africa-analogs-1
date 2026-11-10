@@ -1,6 +1,7 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 const evidence=JSON.parse(readFileSync('evidence.json','utf8'));
 const scienceData=JSON.parse(readFileSync('science/data/analysis.json','utf8'));
+const nasaGIBS=JSON.parse(readFileSync('science/data/nasa-gibs.json','utf8'));
 const scienceCode=readFileSync('science/math.mjs','utf8').replace(/^export /gm,'')+'\n'+readFileSync('science/io.mjs','utf8').replace(/^import[^\n]*\n/gm,'').replace(/^export /gm,'');
 const gallery=JSON.parse(readFileSync('gallery.json','utf8'));
 if(gallery.length!==new Set(gallery.map(image=>image.id)).size)throw Error('IDs duplicados na galeria');
@@ -8,8 +9,8 @@ const entries=JSON.parse(readFileSync('catalog.json','utf8'));
 if(entries.length!==new Set(entries.map(site=>site.id)).size)throw Error('IDs duplicados no catálogo');
 const geometry=JSON.parse(readFileSync('assets/africa.geojson','utf8'));
 const html=readFileSync('index.html','utf8').replace('</head>','<link rel="stylesheet" href="/vendor/leaflet.css"><link rel="stylesheet" href="/showcase.css"></head>').replace('<script src="/app.js">','<script src="/vendor/leaflet.js"></script><script src="/app.js">');
-const js='const RESEARCH_SOURCES='+JSON.stringify(evidence)+';\nconst CATALOG='+JSON.stringify(entries)+';\nconst REGION_GEOMETRY='+JSON.stringify(geometry)+';\nconst IMAGE_LIBRARY='+JSON.stringify(gallery)+';\nconst SCIENCE_DATA='+JSON.stringify(scienceData)+';\n'+scienceCode+'\n'+readFileSync('science/scoring.js','utf8')+'\n'+readFileSync('core.js','utf8')+'\n'+readFileSync('showcase.js','utf8')+'\n'+readFileSync('atlas.js','utf8')+'\n'+readFileSync('gallery.js','utf8')+'\n'+readFileSync('science/ui.js','utf8')+'\n'+readFileSync('design.js','utf8');
-const css=readFileSync('showcase.css','utf8')+'\n'+readFileSync('atlas.css','utf8')+'\n'+readFileSync('gallery.css','utf8')+'\n'+readFileSync('science/ui.css','utf8')+'\n'+readFileSync('design.css','utf8');
+const js='const RESEARCH_SOURCES='+JSON.stringify(evidence)+';\nconst CATALOG='+JSON.stringify(entries)+';\nconst REGION_GEOMETRY='+JSON.stringify(geometry)+';\nconst IMAGE_LIBRARY='+JSON.stringify(gallery)+';\nconst SCIENCE_DATA='+JSON.stringify(scienceData)+';\nconst NASA_GIBS='+JSON.stringify(nasaGIBS)+';\n'+scienceCode+'\n'+readFileSync('science/scoring.js','utf8')+'\n'+readFileSync('core.js','utf8')+'\n'+readFileSync('showcase.js','utf8')+'\n'+readFileSync('atlas.js','utf8')+'\n'+readFileSync('gallery.js','utf8')+'\n'+readFileSync('science/ui.js','utf8')+'\n'+readFileSync('design.js','utf8')+'\n'+readFileSync('nasa.js','utf8');
+const css=readFileSync('showcase.css','utf8')+'\n'+readFileSync('atlas.css','utf8')+'\n'+readFileSync('gallery.css','utf8')+'\n'+readFileSync('science/ui.css','utf8')+'\n'+readFileSync('design.css','utf8')+'\n'+readFileSync('nasa.css','utf8');
 const vendorJS=readFileSync('node_modules/leaflet/dist/leaflet.js','utf8').replace(/\/\/# sourceMappingURL=.*$/gm,'');
 const vendorCSS=readFileSync('node_modules/leaflet/dist/leaflet.css','utf8');
 const images=Object.fromEntries([...['namib','mars','moon'].map(name=>['/assets/'+name+'.jpg',readFileSync('assets/'+name+'.jpg').toString('base64')]),...gallery.map(image=>[image.image,readFileSync(image.image.slice(1)).toString('base64')]),...['layers.png','layers-2x.png','marker-icon.png','marker-icon-2x.png','marker-shadow.png'].map(name=>['/vendor/images/'+name,readFileSync('node_modules/leaflet/dist/images/'+name).toString('base64')])]);
@@ -49,6 +50,6 @@ if(!['GET','HEAD'].includes(request.method))return new Response('Method not allo
 if(Object.hasOwn(images,url.pathname)){const bytes=Uint8Array.from(atob(images[url.pathname]),c=>c.charCodeAt(0));return new Response(request.method==='HEAD'?null:bytes,{headers:{'Content-Type':url.pathname.endsWith('.png')?'image/png':'image/jpeg','Cache-Control':'public,max-age=3600','X-Content-Type-Options':'nosniff'}})}
 const resources={'/':[html,'text/html'],'/app.js':[js,'text/javascript'],'/showcase.css':[css,'text/css'],'/vendor/leaflet.js':[vendorJS,'text/javascript'],'/vendor/leaflet.css':[vendorCSS,'text/css'],'/science-analysis.json':[JSON.stringify(scienceData),'application/json']};
 if(!Object.hasOwn(resources,url.pathname))return new Response('Not found',{status:404});
-return new Response(request.method==='HEAD'?null:resources[url.pathname][0],{headers:{'Content-Type':resources[url.pathname][1]+'; charset=utf-8','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; frame-ancestors 'none'"}})
+return new Response(request.method==='HEAD'?null:resources[url.pathname][0],{headers:{'Content-Type':resources[url.pathname][1]+'; charset=utf-8','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://tile.openstreetmap.org https://gibs.earthdata.nasa.gov; connect-src 'self'; frame-ancestors 'none'"}})
 }};`;
 mkdirSync('dist/server',{recursive:true});writeFileSync('dist/server/index.js',worker);console.log('Worker construído: dist/server/index.js');

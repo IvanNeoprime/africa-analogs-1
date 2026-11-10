@@ -1,0 +1,95 @@
+{
+  "provider": "NASA Earthdata / GIBS",
+  "capabilities_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml",
+  "capabilities_sha256": "e6e3ae0c9ca2ce1810ea9aa78ef93232d099447309041e41c74b82755211e5c8",
+  "retrieved_at": "2026-11-10T19:58:25.459Z",
+  "verified_on": "2026-11-10",
+  "default_date": "2024-06-15",
+  "documentation": "https://nasa-gibs.github.io/gibs-api-docs/access-basics/",
+  "layers": [
+    {
+      "id": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "title": "MODIS Terra · cor natural",
+      "platform": "Terra",
+      "instrument": "MODIS",
+      "matrix": "GoogleMapsCompatible_Level9",
+      "max_native_zoom": 9,
+      "ranges": [
+        {
+          "start": "2000-02-24",
+          "end": "2000-04-25"
+        },
+        {
+          "start": "2000-04-28",
+          "end": "2000-08-06"
+        },
+        {
+          "start": "2000-08-18",
+          "end": "2001-06-15"
+        },
+        {
+          "start": "2001-07-03",
+          "end": "2002-03-19"
+        },
+        {
+          "start": "2002-03-28",
+          "end": "2003-12-16"
+        },
+        {
+          "start": "2003-12-24",
+          "end": "2008-12-20"
+        },
+        {
+          "start": "2008-12-23",
+          "end": "2016-02-18"
+        },
+        {
+          "start": "2016-02-27",
+          "end": "2022-10-10"
+        },
+        {
+          "start": "2022-10-23",
+          "end": "2025-08-08"
+        },
+        {
+          "start": "2025-08-10",
+          "end": "2025-11-08"
+        },
+        {
+          "start": "2025-11-10",
+          "end": "2026-11-11"
+        }
+      ],
+      "format": "jpg",
+      "scope": "Browse imagery, not quantitative reflectance or a DEM. Cloud, acquisition gaps and unavailable tiles are possible."
+    },
+    {
+      "id": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "title": "MODIS Aqua · cor natural",
+      "platform": "Aqua",
+      "instrument": "MODIS",
+      "matrix": "GoogleMapsCompatible_Level9",
+      "max_native_zoom": 9,
+      "ranges": [
+        {
+          "start": "2002-07-03",
+          "end": "2002-07-30"
+        },
+        {
+          "start": "2002-08-07",
+          "end": "2002-09-12"
+        },
+        {
+          "start": "2002-09-14",
+          "end": "2022-03-31"
+        },
+        {
+          "start": "2022-04-17",
+          "end": "2026-11-10"
+        }
+      ],
+      "format": "jpg",
+      "scope": "Browse imagery, not quantitative reflectance or a DEM. Cloud, acquisition gaps and unavailable tiles are possible."
+    }
+  ]
+}

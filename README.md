@@ -2,6 +2,14 @@
 
 A interface inclui navegação persistente Explorar → Dados reais → Imagens → Explicar, três casos de investigação prontos a abrir, guia **Como começar?** e resumo da seleção atual. Direção visual documentada em [docs/design-system.md](docs/design-system.md). `npm run test:design` verifica os novos fluxos e o layout móvel com o servidor ativo.
 
+## NASA
+
+O mapa tem a camada opcional **NASA · satélite**, com imagens MODIS Terra/Aqua via NASA Earthdata GIBS, escolha de data e créditos. Requer Internet; não exige chave de API. Os períodos suportados e a matriz WMTS são obtidos do catálogo oficial e preservados em `science/data/nasa-gibs.json`, com URL e SHA-256. A data inicial é histórica (2024-06-15), não é uma alegação de imagem atual. Nuvens, lacunas e ausência de cobertura são possíveis. Falhas de carregamento regressam ao atlas local. Zoom acima do nível 9 só amplia a imagem existente.
+
+O painel **NASA / Dados com proveniência** mostra as missões MOLA/LOLA e séries mensais NASA POWER de temperatura e precipitação para o local selecionado, com exportação JSON e link para a resposta original. Climatologia não é previsão do tempo. Imagens GIBS são visualizações de contexto e não valores quantitativos de refletância; não entram no índice topográfico, tal como o clima. O DEM terrestre continua a ser Copernicus GLO-90 (europeu), explicitamente identificado.
+
+Atualize o catálogo com `node science/download-nasa-catalog.mjs AAAA-MM-DD`, indicando a data de verificação, e reconstrua o projeto. `npm run nasa:check` descarrega dois mosaicos reais e regista formato, URLs e hashes em `outputs/nasa-live-check.json`. Depois, `npm run test:nasa` verifica interface/proveniência/fallback com a imagem de teste em `outputs/nasa-sample.jpg`. As requisições da suíte de interface usam esse fixture para serem repetíveis e não certificam a cobertura de todas as imagens.
+
 Protótipo em português baseado em Africa_Analogs_Proposta.pdf. Sem dependências de execução; Node 22+ para desenvolvimento.
 
 Execute `node build.mjs` e `node serve.mjs`. Abra http://localhost:4173.
