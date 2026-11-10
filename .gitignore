@@ -6,3 +6,5 @@ node_modules/
 .site-tools/
 outputs/
 .science-cache/
+.vercel/
+dist/public/

@@ -1,5 +1,9 @@
 # Africa Analogs
 
+## Deploy na Vercel
+
+Importe o repositório `mundinho/africa-analogs` na Vercel. `vercel.json` define o build `npm run build:vercel`, os assets estáticos em `dist/public` e a função Node `api/chat.js` (60 s). A API conserva o cálculo científico e a integração Nemotron do Worker existente. Defina `NVIDIA_API_KEY` e, opcionalmente, `NEMOTRON_MODEL` nas variáveis de ambiente do servidor Vercel e faça redeploy. Sem chave, o site continua funcional e o assistente usa a síntese local identificada. Nunca coloque a chave no frontend ou em variáveis públicas. `.env` e caches estão excluídos do upload. Para validar localmente: `npm run build:vercel` e `npm run test:vercel`.
+
 A interface inclui navegação persistente Explorar → Dados reais → Imagens → Explicar, três casos de investigação prontos a abrir, guia **Como começar?** e resumo da seleção atual. Direção visual documentada em [docs/design-system.md](docs/design-system.md). `npm run test:design` verifica os novos fluxos e o layout móvel com o servidor ativo.
 
 ## NASA

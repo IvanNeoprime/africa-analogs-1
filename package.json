@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
+    "build:vercel": "node build-vercel.mjs",
+    "test:vercel": "node vercel-check.mjs",
     "start": "node serve.mjs",
     "test": "node test.mjs",
     "test:design": "node design-check.mjs",

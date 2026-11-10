@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+!.env.example
+.science-cache
+.site-tools
+.openai
+node_modules
+outputs
+science/exports
+dist/public
