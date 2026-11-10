@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mola",
+    "base": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/",
+    "file": "megt90n000eb",
+    "size": 33177600,
+    "sha256": "d18d9b9ab8c5516d02e157dd2cde0f1d0d160c21940e953ba22391269a545e7b",
+    "label_sha256": "0f2bd919dddb86d83489a008d3007bd915507c892a0f22ce49ad5dd5d2fc7d8a",
+    "url": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/megt90n000eb.img",
+    "label_url": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/megt90n000eb.lbl",
+    "retrieved_at": "2026-11-09T21:16:43.895Z"
+  },
+  {
+    "id": "mola-counts",
+    "base": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/",
+    "file": "megc90n000eb",
+    "size": 33177600,
+    "sha256": "9a300c6cd9f5a282ae31299be228ea2e75993049e88c9f6ab69a84f4db5f01d7",
+    "label_sha256": "94618a68e1def1afe7d10897333071c07027484f2c93d9ff2e9607e7946be8fb",
+    "url": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/megc90n000eb.img",
+    "label_url": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/megc90n000eb.lbl",
+    "retrieved_at": "2026-11-09T21:16:54.589Z"
+  },
+  {
+    "id": "lola",
+    "base": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/",
+    "file": "ldem_16",
+    "size": 33177600,
+    "sha256": "a511e40d7a3ea3275945b4da2a1df377133264fab0be94b7434b1cf8907254cb",
+    "label_sha256": "9aef29463ccc6ed3a3fbe0df3ecd830a99c69e16b564f455507dee2697096579",
+    "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_16.img",
+    "label_url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_16.lbl",
+    "retrieved_at": "2026-11-09T21:17:03.935Z"
+  }
+]

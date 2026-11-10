@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-11-09",
+  "earth": {
+    "title": "Namib Sand Sea",
+    "url": "https://science.nasa.gov/earth/earth-observatory/namib-sand-sea-149130/",
+    "image": "/assets/namib.jpg",
+    "credit": "Alan Holmes / NASA Ocean Color · SeaHawk / HawkEye",
+    "date": "2020-01-20",
+    "date_label": "Aquisição: 20 jan. 2020",
+    "instrument": "SeaHawk / HawkEye",
+    "resolution": "Não especificada nesta ficha; imagem de apresentação redimensionada, sem georreferenciação.",
+    "facts": ["A imagem orbital mostra campos de dunas no deserto do Namibe.", "A fonte descreve diferentes morfologias de dunas e transporte de areia pelo vento.", "Nevoeiro e humidade participam no ambiente terrestre."],
+    "note": "A imagem representa uma região extensa; não é um recorte da coordenada aproximada do catálogo."
+  },
+  "mars": {
+    "title": "Namib Dune · Bagnold Dunes · Gale",
+    "url": "https://www.nasa.gov/image-article/mastcam-telephoto-of-martian-dunes-downwind-face/",
+    "image": "/assets/mars.jpg",
+    "credit": "NASA / JPL-Caltech / MSSS",
+    "date": "2016-01-04",
+    "date_label": "Publicação: 4 jan. 2016 · aquisição em dez. 2015",
+    "instrument": "Curiosity / Mastcam · mosaico com ajuste de cor",
+    "resolution": "Não especificada nesta ficha; perspetiva de superfície, sem escala comum à imagem terrestre.",
+    "facts": ["O Curiosity observou a face a sotavento da Namib Dune no campo Bagnold.", "A NASA descreve transporte e acumulação de areia pelo vento.", "A vista é um mosaico com balanço de cor ajustado."],
+    "note": "A página apresenta datas de aquisição divergentes no texto. Mantemos o mês, sem escolher um dia. A imagem não é um produto MOLA."
+  },
+  "moon": {
+    "title": "Depósitos vulcânicos · Bacia Apollo",
+    "url": "https://science.nasa.gov/photojournal/apollo-basin-mare-in-a-sea-of-highlands/",
+    "image": "/assets/moon.jpg",
+    "credit": "NASA / GSFC / Arizona State University",
+    "date": "2010-03-30",
+    "date_label": "Publicação: 30 mar. 2010 · PIA13002",
+    "instrument": "LRO / LROC NAC · frame M114953774LE",
+    "resolution": "A fonte descreve uma cena com 880 m de largura. A apresentação usa um recorte visual.",
+    "facts": ["A imagem mostra limites entre unidades de lava na Bacia Apollo.", "Camadas expostas e crateras ajudam a interpretar a história da superfície."],
+    "note": "Referência visual de geologia lunar. Não demonstra equivalência com dunas terrestres e não é um produto LOLA."
+  }
+}

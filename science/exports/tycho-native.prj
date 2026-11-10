@@ -1,0 +1,1 @@
+GEOGCS["Moon_sphere",DATUM["Moon_datum",SPHEROID["Moon_sphere",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["Degree",0.0174532925199433]]

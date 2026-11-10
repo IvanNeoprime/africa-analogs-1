@@ -1,0 +1,244 @@
+[
+  {
+    "id": "namib-linear",
+    "world": "Earth",
+    "sites": [
+      "namib"
+    ],
+    "title": "Namibe · dunas lineares",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/linear-dunes-namib-sand-sea-89136/",
+    "instrument": "Fotografia orbital · consultar ficha NASA",
+    "note": "Vista regional de dunas; escala e enquadramento diferentes do catálogo.",
+    "facts": [
+      "A fonte descreve dunas lineares do mar de areia do Namibe."
+    ]
+  },
+  {
+    "id": "namib-sandscapes",
+    "world": "Earth",
+    "sites": [
+      "namib"
+    ],
+    "title": "Namibe · areia e afloramentos",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/sandscapes-of-the-namib-desert-146138/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "Uma segunda cena da mesma região, não uma série temporal registada.",
+    "facts": [
+      "A fonte mostra dunas e afloramentos no deserto do Namibe."
+    ]
+  },
+  {
+    "id": "bazaruto-landsat",
+    "world": "Earth",
+    "sites": [
+      "bazaruto"
+    ],
+    "title": "Bazaruto · ilhas e bancos de areia",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/bazaruto-archipelago-national-park-154448/",
+    "instrument": "Landsat 9 / OLI-2",
+    "date_label": "Aquisição: 3 ago. 2024",
+    "note": "Cena orbital do arquipélago e das águas costeiras. Não representa apenas dunas nem um terreno marciano.",
+    "facts": [
+      "A NASA descreve bancos de areia moldados por marés e correntes no arquipélago de Bazaruto."
+    ]
+  },
+  {
+    "id": "chimanimani-iss",
+    "world": "Earth",
+    "sites": [
+      "chimanimani"
+    ],
+    "title": "Chimanimani · vista da ISS",
+    "category": "rock",
+    "url": "https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?frame=18669&mission=ISS028&roll=E",
+    "image_url": "https://eol.jsc.nasa.gov/DatabaseImages/ESC/large/ISS028/ISS028-E-18669.JPG",
+    "instrument": "ISS · ISS028-E-18669",
+    "credit": "NASA / ISS Program / JSC Earth Science & Remote Sensing Unit",
+    "note": "A ficha identifica Chimanimani e fumo. É uma vista regional oblíqua, não um levantamento do ponto do catálogo.",
+    "facts": [
+      "A ficha da NASA identifica as montanhas de Chimanimani e fumo na cena ISS028-E-18669."
+    ]
+  },
+  {
+    "id": "etosha-iss",
+    "world": "Earth",
+    "sites": [
+      "etosha"
+    ],
+    "title": "Etosha · salina vista do espaço",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/etosha-pan-namibia-77907/",
+    "instrument": "ISS / fotografia ISS030-E-234965",
+    "date_label": "Aquisição: 30 dez. 2011",
+    "note": "Fotografia orbital recortada e realçada para contraste pela fonte; mostra parte da salina e água de inundação.",
+    "facts": [
+      "A fonte mostra a região noroeste de Etosha e água que atingiu parte da salina."
+    ]
+  },
+  {
+    "id": "ntwetwe-modis",
+    "world": "Earth",
+    "sites": [
+      "ntwetwe"
+    ],
+    "title": "Makgadikgadi · região de Ntwetwe",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/makgadikgadi-salt-pans-92394/",
+    "instrument": "Terra / MODIS",
+    "date_label": "Aquisição: 10 jun. 2018",
+    "note": "A imagem cobre o sistema de salinas Makgadikgadi; o enquadramento excede Ntwetwe Pan.",
+    "facts": [
+      "A ficha MODIS mostra as salinas de Makgadikgadi, incluindo a região de Ntwetwe."
+    ]
+  },
+  {
+    "id": "kafue-modis",
+    "world": "Earth",
+    "sites": [
+      "kafue"
+    ],
+    "title": "Kafue · planície inundada",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/earth/earth-observatory/zambias-kafue-flats-148154/",
+    "instrument": "Terra / MODIS",
+    "date_label": "Aquisição: 1 abr. 2021",
+    "note": "Inundação terrestre contemporânea; não demonstra água atual em Marte.",
+    "facts": [
+      "A NASA descreve inundações sazonais na planície de Kafue."
+    ]
+  },
+  {
+    "id": "bemaraha-ali",
+    "world": "Earth",
+    "sites": [
+      "bemaraha"
+    ],
+    "title": "Bemaraha · relevo e vegetação",
+    "category": "rock",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tsingy-de-bemaraha-national-park-madagascar-41407/",
+    "instrument": "EO-1 / ALI",
+    "date_label": "Aquisição: 16 jan. 2005",
+    "note": "Cena regional de uma paisagem cársica terrestre, sem equivalência de composição com a Lua.",
+    "facts": [
+      "A imagem em cor natural cobre parte do Parque Nacional de Tsingy de Bemaraha."
+    ]
+  },
+  {
+    "id": "aldabra-orbit",
+    "world": "Earth",
+    "sites": [
+      "aldabra"
+    ],
+    "title": "Aldabra · atol e lagoa",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/earth/earth-observatory/an-outpost-for-evolution-at-aldabra-atoll-152564/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "Ambiente coralino e marinho terrestre. A forma não comprova uma origem semelhante em outros mundos.",
+    "facts": [
+      "A fonte apresenta uma vista orbital do atol de Aldabra."
+    ]
+  },
+  {
+    "id": "nyiragongo-aster",
+    "world": "Earth",
+    "sites": [
+      "nyiragongo"
+    ],
+    "title": "Nyiragongo · contexto vulcânico",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/earth/earth-observatory/nyiragongo-volcano-erupts-in-the-congo-9164/",
+    "instrument": "Terra / ASTER · verificar composição de cor na fonte",
+    "credit": "Mike Abrams / NASA / GSFC / MITI / ERSDAC / JAROS / U.S.-Japan ASTER Science Team",
+    "note": "Imagem em falsa cor, com bandas térmica e infravermelha. O vulcão está coberto por nuvens; a cena mostra o contexto regional e fluxos de lava.",
+    "facts": [
+      "A fonte mostra o contexto da erupção, Goma e fluxos de lava em falsa cor."
+    ],
+    "date_label": "Aquisição: 28 jan. 2002"
+  },
+  {
+    "id": "mars-frost",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · dunas com geada",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/photojournal/frosty-sand-dunes-of-mars/",
+    "instrument": "MRO / HiRISE",
+    "date_label": "Aquisição: 17 fev. 2021",
+    "note": "Dunas numa cratera de altas latitudes; a geada acrescenta processos ausentes em Bazaruto.",
+    "facts": [
+      "A fonte descreve dunas e geada numa cratera das planícies setentrionais de Marte."
+    ],
+    "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia24/pia24420/PIA24420.jpg?w=1500",
+    "credit": "NASA / JPL-Caltech / University of Arizona"
+  },
+  {
+    "id": "mars-delta",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · delta de Eberswalde",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/resource/eberswalde-delta-in-high-resolution/",
+    "instrument": "Mars Global Surveyor · consultar ficha NASA",
+    "note": "Interpretação de um depósito antigo; não representa um rio ou mar contemporâneo.",
+    "facts": [
+      "A fonte interpreta o depósito de Eberswalde como evidência de escoamento persistente de um líquido no passado de Marte."
+    ]
+  },
+  {
+    "id": "mars-olympus",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · flanco de Olympus Mons",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/photojournal/rugged-olympus-mons/",
+    "instrument": "Mars Global Surveyor",
+    "note": "Vista de uma parte do flanco do vulcão, não uma medida comparável a qualquer vulcão terrestre.",
+    "facts": [
+      "A fonte mostra uma parte do flanco superior oeste de Olympus Mons."
+    ]
+  },
+  {
+    "id": "moon-tycho",
+    "world": "Moon",
+    "sites": [],
+    "title": "Lua · pico central de Tycho",
+    "category": "rock",
+    "url": "https://science.nasa.gov/image-detail/tycho-cpeak-oblique/",
+    "instrument": "LRO / LROC · consultar ficha NASA",
+    "note": "Pico central de uma cratera de impacto; a origem difere de montanhas tectónicas ou erosivas terrestres.",
+    "facts": [
+      "A imagem apresenta o pico central da cratera Tycho."
+    ]
+  },
+  {
+    "id": "moon-aristarchus",
+    "world": "Moon",
+    "sites": [],
+    "title": "Lua · planalto de Aristarchus",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/image-article/apod-2002-september-13-aristarchus-plateau/",
+    "instrument": "Imagem lunar · consultar aquisição e créditos na fonte",
+    "note": "Referência de morfologia lunar, sem escala comum às imagens terrestres.",
+    "facts": [
+      "A fonte apresenta o planalto lunar de Aristarchus."
+    ]
+  },
+  {
+    "id": "etosha-cycles",
+    "world": "Earth",
+    "sites": [
+      "etosha"
+    ],
+    "title": "Etosha · ciclos de humidade",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/cycles-of-wet-and-dry-in-etosha-pan-147221/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "A fonte discute ciclos de humidade; esta vista isolada não é uma animação temporal nem um par registado.",
+    "facts": [
+      "A NASA descreve ciclos de inundação e secagem em Etosha."
+    ]
+  }
+]

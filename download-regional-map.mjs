@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const catalog=JSON.parse(readFileSync('catalog.json','utf8')),codes=new Set(catalog.map(site=>site.code));
+const source='https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson';
+const response=await fetch(source);if(!response.ok)throw Error('Natural Earth: '+response.status);
+const geo=await response.json();
+const aliases={'Mauritius':'MUS','Seychelles':'SYC'};
+const features=geo.features.filter(feature=>feature.properties.CONTINENT==='Africa'||codes.has(feature.properties.ADM0_A3)||aliases[feature.properties.ADMIN]).map(feature=>({type:'Feature',properties:{name:feature.properties.ADMIN,code:aliases[feature.properties.ADMIN]||feature.properties.ADM0_A3},geometry:feature.geometry}));
+const missing=[...codes].filter(code=>!features.some(feature=>feature.properties.code===code));
+if(missing.length)throw Error('Geometrias ausentes: '+missing.join(', '));
+writeFileSync('assets/africa.geojson',JSON.stringify({type:'FeatureCollection',source,license:'Natural Earth · public domain · 1:50m',features}));
+console.log(features.length+' geometrias; 16 países SADC representados.');

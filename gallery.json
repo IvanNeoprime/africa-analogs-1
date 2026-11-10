@@ -1,0 +1,519 @@
+[
+  {
+    "title": "Namib Sand Sea",
+    "url": "https://science.nasa.gov/earth/earth-observatory/namib-sand-sea-149130/",
+    "image": "/assets/namib.jpg",
+    "credit": "Alan Holmes / NASA Ocean Color · SeaHawk / HawkEye",
+    "date": "2020-01-20",
+    "date_label": "Aquisição: 20 jan. 2020",
+    "instrument": "SeaHawk / HawkEye",
+    "resolution": "Apresentação: 1198 × 1800 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "facts": [
+      "A imagem orbital mostra campos de dunas no deserto do Namibe.",
+      "A fonte descreve diferentes morfologias de dunas e transporte de areia pelo vento.",
+      "Nevoeiro e humidade participam no ambiente terrestre."
+    ],
+    "note": "A imagem representa uma região extensa; não é um recorte da coordenada aproximada do catálogo.",
+    "id": "namib-orbit",
+    "world": "Earth",
+    "sites": [
+      "namib"
+    ],
+    "category": "dunes",
+    "original_width": 1400,
+    "original_height": 2103,
+    "display_width": 1198,
+    "display_height": 1800,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "title": "Namib Dune · Bagnold Dunes · Gale",
+    "url": "https://www.nasa.gov/image-article/mastcam-telephoto-of-martian-dunes-downwind-face/",
+    "image": "/assets/mars.jpg",
+    "credit": "NASA / JPL-Caltech / MSSS",
+    "date": "2016-01-04",
+    "date_label": "Publicação: 4 jan. 2016 · aquisição em dez. 2015",
+    "instrument": "Curiosity / Mastcam · mosaico com ajuste de cor",
+    "resolution": "Apresentação: 1041 × 1176 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "facts": [
+      "O Curiosity observou a face a sotavento da Namib Dune no campo Bagnold.",
+      "A NASA descreve transporte e acumulação de areia pelo vento.",
+      "A vista é um mosaico com balanço de cor ajustado."
+    ],
+    "note": "A página apresenta datas de aquisição divergentes no texto. Mantemos o mês, sem escolher um dia. A imagem não é um produto MOLA.",
+    "id": "mars-bagnold",
+    "world": "Mars",
+    "sites": [],
+    "category": "dunes",
+    "original_width": 1041,
+    "original_height": 1176,
+    "display_width": 1041,
+    "display_height": 1176,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "title": "Depósitos vulcânicos · Bacia Apollo",
+    "url": "https://science.nasa.gov/photojournal/apollo-basin-mare-in-a-sea-of-highlands/",
+    "image": "/assets/moon.jpg",
+    "credit": "NASA / GSFC / Arizona State University",
+    "date": "2010-03-30",
+    "date_label": "Publicação: 30 mar. 2010 · PIA13002",
+    "instrument": "LRO / LROC NAC · frame M114953774LE",
+    "resolution": "Apresentação: 1200 × 1200 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "facts": [
+      "A imagem mostra limites entre unidades de lava na Bacia Apollo.",
+      "Camadas expostas e crateras ajudam a interpretar a história da superfície."
+    ],
+    "note": "Referência visual de geologia lunar. Não demonstra equivalência com dunas terrestres e não é um produto LOLA.",
+    "id": "moon-apollo",
+    "world": "Moon",
+    "sites": [],
+    "category": "volcanic",
+    "original_width": 1200,
+    "original_height": 1200,
+    "display_width": 1200,
+    "display_height": 1200,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "namib-linear",
+    "world": "Earth",
+    "sites": [
+      "namib"
+    ],
+    "title": "Namibe · dunas lineares",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/linear-dunes-namib-sand-sea-89136/",
+    "instrument": "Fotografia orbital · consultar ficha NASA",
+    "note": "Vista regional de dunas; escala e enquadramento diferentes do catálogo.",
+    "facts": [
+      "A fonte descreve dunas lineares do mar de areia do Namibe."
+    ],
+    "image": "/assets/gallery/namib-linear.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/89000/89136/iss047e023405_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1800 × 1198 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 4928,
+    "original_height": 3280,
+    "display_width": 1800,
+    "display_height": 1198,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "namib-sandscapes",
+    "world": "Earth",
+    "sites": [
+      "namib"
+    ],
+    "title": "Namibe · areia e afloramentos",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/sandscapes-of-the-namib-desert-146138/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "Uma segunda cena da mesma região, não uma série temporal registada.",
+    "facts": [
+      "A fonte mostra dunas e afloramentos no deserto do Namibe."
+    ],
+    "image": "/assets/gallery/namib-sandscapes.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/146000/146138/namibia_oli_2019317_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1800 × 1200 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 2048,
+    "original_height": 1365,
+    "display_width": 1800,
+    "display_height": 1200,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "bazaruto-landsat",
+    "world": "Earth",
+    "sites": [
+      "bazaruto"
+    ],
+    "title": "Bazaruto · ilhas e bancos de areia",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/bazaruto-archipelago-national-park-154448/",
+    "instrument": "Landsat 9 / OLI-2",
+    "date_label": "Aquisição: 3 ago. 2024",
+    "note": "Cena orbital do arquipélago e das águas costeiras. Não representa apenas dunas nem um terreno marciano.",
+    "facts": [
+      "A NASA descreve bancos de areia moldados por marés e correntes no arquipélago de Bazaruto."
+    ],
+    "image": "/assets/gallery/bazaruto-landsat.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/154000/154448/bazaruto_oli2_20240803_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "resolution": "Apresentação: 1800 × 1200 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 6656,
+    "original_height": 4437,
+    "display_width": 1800,
+    "display_height": 1200,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "chimanimani-iss",
+    "world": "Earth",
+    "sites": [
+      "chimanimani"
+    ],
+    "title": "Chimanimani · vista da ISS",
+    "category": "rock",
+    "url": "https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?frame=18669&mission=ISS028&roll=E",
+    "image_url": "https://eol.jsc.nasa.gov/DatabaseImages/ESC/large/ISS028/ISS028-E-18669.JPG",
+    "instrument": "ISS · ISS028-E-18669",
+    "credit": "NASA / ISS Program / JSC Earth Science & Remote Sensing Unit",
+    "note": "A ficha identifica Chimanimani e fumo. É uma vista regional oblíqua, não um levantamento do ponto do catálogo.",
+    "facts": [
+      "A ficha da NASA identifica as montanhas de Chimanimani e fumo na cena ISS028-E-18669."
+    ],
+    "image": "/assets/gallery/chimanimani-iss.jpg",
+    "mime": "image/jpeg",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1800 × 1198 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 4256,
+    "original_height": 2832,
+    "display_width": 1800,
+    "display_height": 1198,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "etosha-iss",
+    "world": "Earth",
+    "sites": [
+      "etosha"
+    ],
+    "title": "Etosha · salina vista do espaço",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/etosha-pan-namibia-77907/",
+    "instrument": "ISS / fotografia ISS030-E-234965",
+    "date_label": "Aquisição: 30 dez. 2011",
+    "note": "Fotografia orbital recortada e realçada para contraste pela fonte; mostra parte da salina e água de inundação.",
+    "facts": [
+      "A fonte mostra a região noroeste de Etosha e água que atingiu parte da salina."
+    ],
+    "image": "/assets/gallery/etosha-iss.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/77000/77907/ISS030-E-234965_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "resolution": "Apresentação: 1440 × 1440 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 1440,
+    "original_height": 1440,
+    "display_width": 1440,
+    "display_height": 1440,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "ntwetwe-modis",
+    "world": "Earth",
+    "sites": [
+      "ntwetwe"
+    ],
+    "title": "Makgadikgadi · região de Ntwetwe",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/makgadikgadi-salt-pans-92394/",
+    "instrument": "Terra / MODIS",
+    "date_label": "Aquisição: 10 jun. 2018",
+    "note": "A imagem cobre o sistema de salinas Makgadikgadi; o enquadramento excede Ntwetwe Pan.",
+    "facts": [
+      "A ficha MODIS mostra as salinas de Makgadikgadi, incluindo a região de Ntwetwe."
+    ],
+    "image": "/assets/gallery/ntwetwe-modis.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/92000/92394/botswana_tmo_2018161_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "resolution": "Apresentação: 1800 × 1690 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 4212,
+    "original_height": 3954,
+    "display_width": 1800,
+    "display_height": 1690,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "kafue-modis",
+    "world": "Earth",
+    "sites": [
+      "kafue"
+    ],
+    "title": "Kafue · planície inundada",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/earth/earth-observatory/zambias-kafue-flats-148154/",
+    "instrument": "Terra / MODIS",
+    "date_label": "Aquisição: 1 abr. 2021",
+    "note": "Inundação terrestre contemporânea; não demonstra água atual em Marte.",
+    "facts": [
+      "A NASA descreve inundações sazonais na planície de Kafue."
+    ],
+    "image": "/assets/gallery/kafue-modis.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/148000/148154/kafueflats_tmo_202191_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "resolution": "Apresentação: 1800 × 1288 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 2290,
+    "original_height": 1639,
+    "display_width": 1800,
+    "display_height": 1288,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "bemaraha-ali",
+    "world": "Earth",
+    "sites": [
+      "bemaraha"
+    ],
+    "title": "Bemaraha · relevo e vegetação",
+    "category": "rock",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tsingy-de-bemaraha-national-park-madagascar-41407/",
+    "instrument": "EO-1 / ALI",
+    "date_label": "Aquisição: 16 jan. 2005",
+    "note": "Cena regional de uma paisagem cársica terrestre, sem equivalência de composição com a Lua.",
+    "facts": [
+      "A imagem em cor natural cobre parte do Parque Nacional de Tsingy de Bemaraha."
+    ],
+    "image": "/assets/gallery/bemaraha-ali.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/41000/41407/tsingy_ali_2005016_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "resolution": "Apresentação: 1350 × 1800 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 1800,
+    "original_height": 2400,
+    "display_width": 1350,
+    "display_height": 1800,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "aldabra-orbit",
+    "world": "Earth",
+    "sites": [
+      "aldabra"
+    ],
+    "title": "Aldabra · atol e lagoa",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/earth/earth-observatory/an-outpost-for-evolution-at-aldabra-atoll-152564/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "Ambiente coralino e marinho terrestre. A forma não comprova uma origem semelhante em outros mundos.",
+    "facts": [
+      "A fonte apresenta uma vista orbital do atol de Aldabra."
+    ],
+    "image": "/assets/gallery/aldabra-orbit.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/152000/152564/aldabracoralatoll_oli2_20220624_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1296 × 864 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 1296,
+    "original_height": 864,
+    "display_width": 1296,
+    "display_height": 864,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "nyiragongo-aster",
+    "world": "Earth",
+    "sites": [
+      "nyiragongo"
+    ],
+    "title": "Nyiragongo · contexto vulcânico",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/earth/earth-observatory/nyiragongo-volcano-erupts-in-the-congo-9164/",
+    "instrument": "Terra / ASTER · verificar composição de cor na fonte",
+    "credit": "Mike Abrams / NASA / GSFC / MITI / ERSDAC / JAROS / U.S.-Japan ASTER Science Team",
+    "note": "Imagem em falsa cor, com bandas térmica e infravermelha. O vulcão está coberto por nuvens; a cena mostra o contexto regional e fluxos de lava.",
+    "facts": [
+      "A fonte mostra o contexto da erupção, Goma e fluxos de lava em falsa cor."
+    ],
+    "date_label": "Aquisição: 28 jan. 2002",
+    "image": "/assets/gallery/nyiragongo-aster.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/9000/9164/aster_goma_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "resolution": "Apresentação: 692 × 829 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 692,
+    "original_height": 829,
+    "display_width": 692,
+    "display_height": 829,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "mars-frost",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · dunas com geada",
+    "category": "dunes",
+    "url": "https://science.nasa.gov/photojournal/frosty-sand-dunes-of-mars/",
+    "instrument": "MRO / HiRISE",
+    "date_label": "Aquisição: 17 fev. 2021",
+    "note": "Dunas numa cratera de altas latitudes; a geada acrescenta processos ausentes em Bazaruto.",
+    "facts": [
+      "A fonte descreve dunas e geada numa cratera das planícies setentrionais de Marte."
+    ],
+    "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia24/pia24420/PIA24420.jpg?w=1500&quality=85",
+    "credit": "NASA / JPL-Caltech / University of Arizona",
+    "image": "/assets/gallery/mars-frost.jpg",
+    "mime": "image/jpeg",
+    "resolution": "Apresentação: 1500 × 938 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 1500,
+    "original_height": 938,
+    "display_width": 1500,
+    "display_height": 938,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "mars-delta",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · delta de Eberswalde",
+    "category": "sediments",
+    "url": "https://science.nasa.gov/resource/eberswalde-delta-in-high-resolution/",
+    "instrument": "Mars Global Surveyor · consultar ficha NASA",
+    "note": "Interpretação de um depósito antigo; não representa um rio ou mar contemporâneo.",
+    "facts": [
+      "A fonte interpreta o depósito de Eberswalde como evidência de escoamento persistente de um líquido no passado de Marte."
+    ],
+    "image": "/assets/gallery/mars-delta.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/3/3542_PIA04293-full2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1280 × 792 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 1280,
+    "original_height": 792,
+    "display_width": 1280,
+    "display_height": 792,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "mars-olympus",
+    "world": "Mars",
+    "sites": [],
+    "title": "Marte · flanco de Olympus Mons",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/photojournal/rugged-olympus-mons/",
+    "instrument": "Mars Global Surveyor",
+    "note": "Vista de uma parte do flanco do vulcão, não uma medida comparável a qualquer vulcão terrestre.",
+    "facts": [
+      "A fonte mostra uma parte do flanco superior oeste de Olympus Mons."
+    ],
+    "image": "/assets/gallery/mars-olympus.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia03/pia03992/PIA03992.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 804 × 1280 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 804,
+    "original_height": 1280,
+    "display_width": 804,
+    "display_height": 1280,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "moon-tycho",
+    "world": "Moon",
+    "sites": [],
+    "title": "Lua · pico central de Tycho",
+    "category": "rock",
+    "url": "https://science.nasa.gov/image-detail/tycho-cpeak-oblique/",
+    "instrument": "LRO / LROC · consultar ficha NASA",
+    "note": "Pico central de uma cratera de impacto; a origem difere de montanhas tectónicas ou erosivas terrestres.",
+    "facts": [
+      "A imagem apresenta o pico central da cratera Tycho."
+    ],
+    "image": "/assets/gallery/moon-tycho.jpg",
+    "image_url": "https://science.nasa.gov/wp-content/uploads/2024/01/tycho-cpeak-oblique.jpg",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 600 × 600 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 600,
+    "original_height": 600,
+    "display_width": 600,
+    "display_height": 600,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "moon-aristarchus",
+    "world": "Moon",
+    "sites": [],
+    "title": "Lua · planalto de Aristarchus",
+    "category": "volcanic",
+    "url": "https://science.nasa.gov/image-article/apod-2002-september-13-aristarchus-plateau/",
+    "instrument": "Imagem lunar · consultar aquisição e créditos na fonte",
+    "note": "Referência de morfologia lunar, sem escala comum às imagens terrestres.",
+    "facts": [
+      "A fonte apresenta o planalto lunar de Aristarchus."
+    ],
+    "image": "/assets/gallery/moon-aristarchus.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2002/september/aristarchus_croman_full.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 800 × 640 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 800,
+    "original_height": 640,
+    "display_width": 800,
+    "display_height": 640,
+    "processing": "Imagem original de apresentação; sem ampliação artificial ou geração por IA.",
+    "presentation_version": "1800-v1"
+  },
+  {
+    "id": "etosha-cycles",
+    "world": "Earth",
+    "sites": [
+      "etosha"
+    ],
+    "title": "Etosha · ciclos de humidade",
+    "category": "salt",
+    "url": "https://science.nasa.gov/earth/earth-observatory/cycles-of-wet-and-dry-in-etosha-pan-147221/",
+    "instrument": "Observação orbital · consultar ficha NASA",
+    "note": "A fonte discute ciclos de humidade; esta vista isolada não é uma animação temporal nem um par registado.",
+    "facts": [
+      "A NASA descreve ciclos de inundação e secagem em Etosha."
+    ],
+    "image": "/assets/gallery/etosha-cycles.jpg",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/147000/147221/etoshapan_tmo_2020244_lrg.jpg?w=1500&quality=85",
+    "mime": "image/jpeg",
+    "credit": "NASA · créditos completos na página da fonte",
+    "date_label": "Data de aquisição: consultar fonte",
+    "resolution": "Apresentação: 1800 × 1200 píxeis. Sem georreferenciação ou escala comum entre vistas; consultar a fonte para a resolução científica.",
+    "reviewed_at": "2026-11-09",
+    "original_width": 6428,
+    "original_height": 4285,
+    "display_width": 1800,
+    "display_height": 1200,
+    "processing": "Redimensionamento proporcional para apresentação; sem recorte, super-resolução ou geração por IA.",
+    "presentation_version": "1800-v1"
+  }
+]

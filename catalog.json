@@ -1,0 +1,301 @@
+[
+  {
+    "id": "ntwetwe",
+    "name": "Ntwetwe Pan",
+    "country": "Botswana",
+    "type": "Bacia salina · Sedimentologia",
+    "lat": -20.5,
+    "lon": 25.2,
+    "why": "Investigar deposição de sedimentos e superfícies salinas. A associação a ambientes marcianos é uma hipótese de trabalho.",
+    "missing": "Mineralogia in situ, sazonalidade e validação de campo.",
+    "code": "BWA",
+    "category": "salt",
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "namib",
+    "name": "Deserto do Namibe",
+    "country": "Namíbia",
+    "type": "Campo de dunas · Processos eólicos",
+    "lat": -24.7,
+    "lon": 15.3,
+    "why": "Estudar transporte eólico e mobilidade em areia. A atmosfera terrestre e a gravidade diferem das condições planetárias.",
+    "missing": "Granulometria, resistência do solo e dados meteorológicos locais.",
+    "code": "NAM",
+    "category": "dunes",
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "etosha",
+    "name": "Etosha Pan",
+    "country": "Namíbia",
+    "type": "Planície salina · Superfície sazonal",
+    "lat": -18.8,
+    "lon": 16.3,
+    "why": "Explorar processos de evaporação e transformação de superfícies salinas ao longo do tempo.",
+    "missing": "Medições de salinidade e séries temporais verificadas.",
+    "code": "NAM",
+    "category": "salt",
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "karoo",
+    "name": "Grande Karoo",
+    "country": "África do Sul",
+    "type": "Terreno árido · Geologia sedimentar",
+    "lat": -32.3,
+    "lon": 22.5,
+    "why": "Explorar terrenos áridos e operações de campo em paisagens sedimentares.",
+    "missing": "Mapeamento local de litologias, declives e acessibilidade.",
+    "code": "ZAF",
+    "category": "sediments",
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "lesoto",
+    "name": "Terras altas do Lesoto",
+    "country": "Lesoto",
+    "type": "Terreno basáltico · Relevo montanhoso",
+    "lat": -29.5,
+    "lon": 28.5,
+    "why": "Investigar terrenos basálticos e testes de mobilidade em relevo acidentado; a composição precisa de confirmação local.",
+    "missing": "Petrografia, rugosidade medida e validação de declives.",
+    "code": "LSO",
+    "category": "rock",
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "bazaruto",
+    "name": "Dunas de Bazaruto",
+    "country": "Moçambique",
+    "code": "MOZ",
+    "category": "dunes",
+    "type": "Dunas costeiras · Transporte de areia",
+    "lat": -21.65,
+    "lon": 35.47,
+    "why": "Investigar formas de dunas e transporte de areia. O ambiente costeiro e húmido difere fortemente de Marte; a semelhança seria específica ao processo, não ao clima.",
+    "missing": "Granulometria, humidade, evolução das dunas e validação de terreno. O estatuto de parque exige coordenação com a entidade gestora.",
+    "source": {
+      "title": "ANAC · Parque Nacional do Arquipélago de Bazaruto",
+      "url": "https://www.anac.gov.mz/en/parques/bazaruto/",
+      "fact": "A ANAC descreve dunas parabólicas de areia no arquipélago, na província de Inhambane."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "chimanimani",
+    "name": "Montanhas de Chimanimani",
+    "country": "Moçambique",
+    "code": "MOZ",
+    "category": "rock",
+    "type": "Relevo rochoso · Geomorfologia",
+    "lat": -19.8,
+    "lon": 33.08,
+    "why": "Explorar relevo e obstáculos em superfícies rochosas. A associação a mobilidade planetária é uma pergunta de investigação, sem validação de equivalência geológica.",
+    "missing": "DEM local, declives, rugosidade, composição e autorização para qualquer atividade de campo.",
+    "source": {
+      "title": "ANAC · Parque Nacional de Chimanimani",
+      "url": "https://www.anac.gov.mz/en/parques/chimanimani/",
+      "fact": "A ANAC situa o parque em Manica e descreve paisagens rochosas de montanha junto à fronteira com o Zimbabwe."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "iona",
+    "name": "Deserto do Iona",
+    "country": "Angola",
+    "code": "AGO",
+    "category": "dunes",
+    "type": "Deserto costeiro · Dunas móveis",
+    "lat": -16.8,
+    "lon": 12.35,
+    "why": "Investigar processos eólicos na continuação setentrional do deserto do Namibe. É necessário medir as propriedades do terreno antes de comparar com Marte.",
+    "missing": "Medições de areia, ventos, declives e documentação de acessibilidade com a entidade gestora.",
+    "source": {
+      "title": "INBAC · Parque Nacional do Iona",
+      "url": "https://inbac.gov.ao/Site/areasConservacao/parque/7",
+      "fact": "O INBAC descreve o Iona no sudoeste de Angola, com deserto litoral e dunas móveis."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "matobo",
+    "name": "Colinas de Matobo",
+    "country": "Zimbabwe",
+    "code": "ZWE",
+    "category": "rock",
+    "type": "Formas graníticas · Meteorização",
+    "lat": -20.5,
+    "lon": 28.5,
+    "why": "Explorar geometria de blocos e obstáculos rochosos como hipótese de teste de mobilidade. O granito meteorizado não equivale a regolito lunar.",
+    "missing": "Distribuição dos blocos, rugosidade, superfícies acessíveis e compatibilidade com a proteção cultural do local.",
+    "source": {
+      "title": "UNESCO · Matobo Hills",
+      "url": "https://whc.unesco.org/en/list/306",
+      "fact": "A UNESCO descreve formas graníticas e grandes blocos resultantes de meteorização, num local de elevado valor cultural."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "kafue",
+    "name": "Planícies de Kafue",
+    "country": "Zâmbia",
+    "code": "ZMB",
+    "category": "sediments",
+    "type": "Planície aluvial · Dinâmica de inundação",
+    "lat": -15.75,
+    "lon": 27.25,
+    "why": "Explorar processos de deposição e dinâmica de planícies aluviais como contraste com registos sedimentares. É um ambiente húmido, não um análogo climático de Marte.",
+    "missing": "Séries de inundação, sedimentos, DEM e avaliação científica da pergunta de comparação.",
+    "source": {
+      "title": "NASA Earth Observatory · Zambia’s Kafue Flats",
+      "url": "https://science.nasa.gov/earth/earth-observatory/zambias-kafue-flats-148154/",
+      "fact": "A NASA descreve uma planície de inundação sazonal atravessada pelo rio Kafue."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "mulanje",
+    "name": "Maciço de Mulanje",
+    "country": "Malawi",
+    "code": "MWI",
+    "category": "rock",
+    "type": "Inselberg · Relevo montanhoso",
+    "lat": -15.95,
+    "lon": 35.59,
+    "why": "Estudar morfologia de relevo e obstáculos. A vegetação, a humidade e a história geológica limitam a transferência direta para superfícies planetárias.",
+    "missing": "Declives, modelos de superfície, distribuição de blocos e caracterização geológica local.",
+    "source": {
+      "title": "UNESCO · Mount Mulanje Cultural Landscape",
+      "url": "https://whc.unesco.org/en/list/1201/",
+      "fact": "A UNESCO descreve Mulanje como um grande inselberg no sul do Malawi."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "lengai",
+    "name": "Ol Doinyo Lengai",
+    "country": "Tanzânia",
+    "code": "TZA",
+    "category": "volcanic",
+    "type": "Vulcanismo carbonatítico · Observação remota",
+    "lat": -2.77,
+    "lon": 35.92,
+    "why": "Investigar morfologia vulcânica por observação remota. As lavas carbonatíticas são uma diferença importante face a referências basálticas lunares ou marcianas.",
+    "missing": "Modelos topográficos, produtos vulcânicos e uma hipótese mineralógica explícita. Candidato de observação remota, não plano de visita.",
+    "source": {
+      "title": "Ngorongoro Lengai Geopark · Major Attractions",
+      "url": "https://geopark.ncaa.go.tz/major-attractions/",
+      "fact": "O geoparque descreve Ol Doinyo Lengai e a particularidade do seu vulcanismo carbonatítico."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "bemaraha",
+    "name": "Tsingy de Bemaraha",
+    "country": "Madagáscar",
+    "code": "MDG",
+    "category": "rock",
+    "type": "Relevo cársico · Agulhas calcárias",
+    "lat": -18.9,
+    "lon": 44.85,
+    "why": "Comparar geometria de terreno muito irregular e limitações de mobilidade. A origem cársica e a composição calcária não demonstram analogia planetária.",
+    "missing": "Geometria 3D, escalas de rugosidade, acessibilidade e delimitação das áreas protegidas.",
+    "source": {
+      "title": "UNESCO · Andrefana Dry Forests",
+      "url": "https://whc.unesco.org/en/list/494",
+      "fact": "A UNESCO descreve paisagens cársicas e agulhas calcárias, incluindo Tsingy de Bemaraha."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "trou-cerfs",
+    "name": "Cratera Trou aux Cerfs",
+    "country": "Maurícia",
+    "code": "MUS",
+    "category": "volcanic",
+    "type": "Cratera vulcânica · Morfologia",
+    "lat": -20.315,
+    "lon": 57.505,
+    "why": "Explorar formas de crateras vulcânicas, distinguindo-as de crateras de impacto. Não há validação de equivalência com uma cratera lunar.",
+    "missing": "DEM, origem e estrutura do terreno, escala comparável e cobertura vegetal.",
+    "source": {
+      "title": "Ministério do Turismo da Maurícia · Tourist Sites",
+      "url": "https://tourism.govmu.org/Pages/Services/Tourist-Sites.aspx",
+      "fact": "O ministério identifica Trou aux Cerfs como uma cratera vulcânica em Curepipe."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "aldabra",
+    "name": "Atol de Aldabra",
+    "country": "Seicheles",
+    "code": "SYC",
+    "category": "sediments",
+    "type": "Calcário coralino · Geomorfologia costeira",
+    "lat": -9.42,
+    "lon": 46.35,
+    "why": "Usar um ambiente carbonatado como contraste para interpretar processos e formas. A origem coralina não deve ser confundida com evidência de processos em Marte ou na Lua.",
+    "missing": "Uma pergunta científica específica, caracterização mineralógica e validação das escalas de comparação.",
+    "source": {
+      "title": "UNESCO · Aldabra Atoll",
+      "url": "https://whc.unesco.org/en/list/185/",
+      "fact": "A UNESCO descreve ilhas de calcário coralino que envolvem uma lagoa rasa."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "karthala",
+    "name": "Vulcão Karthala",
+    "country": "Comores",
+    "code": "COM",
+    "category": "volcanic",
+    "type": "Relevo vulcânico · Observação remota",
+    "lat": -11.75,
+    "lon": 43.35,
+    "why": "Investigar morfologia de relevo vulcânico por observação remota. Uma comparação planetária exige composição e história eruptiva documentadas.",
+    "missing": "DEM, caracterização das lavas, contexto eruptivo e diferenças ambientais. Sem planeamento operacional de campo.",
+    "source": {
+      "title": "UNESCO · Parc National du Karthala",
+      "url": "https://whc.unesco.org/en/tentativelists/6979/",
+      "fact": "A ficha da lista indicativa da UNESCO documenta o Parque Nacional do Karthala, nas Comores."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "nyiragongo",
+    "name": "Nyiragongo · Virunga",
+    "country": "RD Congo",
+    "code": "COD",
+    "category": "volcanic",
+    "type": "Relevo vulcânico · Observação remota",
+    "lat": -1.52,
+    "lon": 29.25,
+    "why": "Estudar a morfologia vulcânica por dados orbitais. A presença de um vulcão terrestre não valida equivalência com vulcanismo lunar ou marciano.",
+    "missing": "DEM, composição, escala e evolução da superfície. Apenas hipótese de observação remota, sem proposta de deslocação.",
+    "source": {
+      "title": "UNESCO · Virunga National Park",
+      "url": "https://whc.unesco.org/en/list/00063/",
+      "fact": "A UNESCO inclui Nyiragongo entre os vulcões ativos do Parque Nacional de Virunga."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  },
+  {
+    "id": "sibebe",
+    "name": "Domo de Sibebe",
+    "country": "Eswatini",
+    "code": "SWZ",
+    "category": "rock",
+    "type": "Domo granítico · Relevo rochoso",
+    "lat": -26.21,
+    "lon": 31.17,
+    "why": "Explorar formas de relevo e superfícies rochosas para perguntas de geomorfologia e mobilidade. A composição granítica exige distinguir este candidato de terrenos basálticos.",
+    "missing": "Declives, rugosidade, propriedades do substrato e consulta às entidades locais.",
+    "source": {
+      "title": "Eswatini Tourism · Sibebe Rock",
+      "url": "https://www.thekingdomofeswatini.com/central-eswatini/sibebe-rock/",
+      "fact": "A entidade de turismo descreve Sibebe como uma formação rochosa junto a Mbabane."
+    },
+    "coordinate_accuracy": "Ponto regional aproximado; não delimita o local nem serve para navegação."
+  }
+]

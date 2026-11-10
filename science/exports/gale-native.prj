@@ -1,0 +1,1 @@
+GEOGCS["Mars_sphere",DATUM["Mars_datum",SPHEROID["Mars_sphere",3396000,0]],PRIMEM["Reference_Meridian",0],UNIT["Degree",0.0174532925199433]]
