@@ -1,28 +1,28 @@
 :root {
   color-scheme: light;
-  --bg: #f5f6f1;
+  --bg: #f4f6fa;
   --panel: #ffffff;
   --surface: #ffffff;
-  --surface-muted: #f0f2eb;
-  --surface-hover: #e8eddf;
-  --sidebar: #26332d;
-  --sidebar-raised: #35443c;
-  --sidebar-foreground: #f4f6ef;
-  --accent: #c8ed70;
-  --accent-hover: #b8df5c;
+  --surface-muted: #f0f3f8;
+  --surface-hover: #e6ecf5;
+  --sidebar: #1e2d42;
+  --sidebar-raised: #2b3d56;
+  --sidebar-foreground: #f4f7fb;
+  --accent: #3b6fd8;
+  --accent-hover: #315fc0;
   --lime: var(--accent);
-  --rust: #a76542;
-  --text: #20271f;
-  --muted: #687268;
-  --soft-muted: #818a80;
-  --line: #e2e7dd;
-  --focus-ring: #50703d;
-  --peach: #f0f2eb;
-  --lavender: #f0f2eb;
-  --butter: #edf0e5;
-  --mint: #e5efdf;
-  --map-land: #e4e9dc;
-  --map-line: #cbd4c7;
+  --rust: #a65336;
+  --text: #1e293b;
+  --muted: #64748b;
+  --soft-muted: #8692a3;
+  --line: #dce3ed;
+  --focus-ring: #2456a6;
+  --peach: #f7eee9;
+  --lavender: #eef2f8;
+  --butter: #f5f1e9;
+  --mint: #e8eef9;
+  --map-land: #e5eaf2;
+  --map-line: #c7d0df;
   --radius-container: 20px;
   --radius-card: 14px;
   --radius-icon: 10px;
@@ -34,6 +34,12 @@
 }
 
 html { scroll-padding-top: 100px; }
+body[data-page] main > .intro { margin-bottom: 20px; }
+body[data-page] .journey { position: sticky; top: 8px; }
+body[data-page]:not([data-page="estudo"]) .architecture-strip { display: none; }
+body[data-page="dados"] .intro > .target,
+body[data-page="preparacao"] .intro > .target,
+body[data-page="exportacao"] .intro > .target { display: none; }
 body { background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 ::selection { background: var(--accent); color: var(--text); }
 .skip-link { position: fixed; top: 8px; left: 16px; z-index: 2000; padding: 12px 20px; border-radius: var(--radius-icon); background: var(--accent); color: var(--text); transform: translateY(-160%); }
@@ -66,8 +72,9 @@ a, button, input, select, textarea, summary { scroll-margin-top: 96px; }
 .journey { position: sticky; top: 8px; z-index: 850; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; margin-bottom: 20px; padding: 7px; border: 0; border-radius: var(--radius-pill); background: var(--surface); box-shadow: var(--shadow); backdrop-filter: blur(14px); }
 .journey a { justify-content: center; gap: 8px; border: 0; border-radius: var(--radius-pill); color: var(--muted); font-size: 11px; }
 .journey a:hover { background: var(--surface-muted); }
-.journey a[aria-current=step] { background: var(--accent); color: var(--text); }
-.journey b, .journey a[aria-current=step] b { color: var(--text); }
+.journey a[aria-current=page] { background: var(--accent); color: #fff; }
+.journey b, .journey a[aria-current=page] b { color: inherit; }
+.toplinks a[aria-current=page] { color: var(--text); font-weight: 700; }
 .architecture-strip, .study-setup, .region-discovery, .starter-cases, .science-panel, .compare-lab, .site-comparison, .card, .nasa-data { border: 1px solid var(--line); border-radius: var(--radius-container); background: var(--surface); box-shadow: var(--shadow); }
 .architecture-strip { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 24px; }
 .architecture-label { display: grid; min-width: 190px; align-content: start; gap: 4px; }
@@ -111,9 +118,9 @@ a, button, input, select, textarea, summary { scroll-margin-top: 96px; }
 .sidebar { border: 0; border-radius: var(--radius-container) 0 0 var(--radius-container); background: var(--sidebar); color: var(--sidebar-foreground); }
 .sidebar h2, .sidebar .section-label, .sidebar label { color: var(--sidebar-foreground); }
 .sidebar input, .sidebar select { min-height: 42px; border: 1px solid transparent; border-radius: var(--radius-icon); background: var(--sidebar-raised); color: var(--sidebar-foreground); }
-.sidebar input::placeholder { color: #c1c9c1; }
+.sidebar input::placeholder { color: #cbd5e1; }
 .sidebar .section-label { border-color: rgb(255 255 255 / 16%); }
-.sidebar #sites { max-height: 420px; scrollbar-color: #758574 var(--sidebar); }
+.sidebar #sites { max-height: 420px; scrollbar-color: #718096 var(--sidebar); }
 .site { min-height: 64px; padding: 12px; border: 0; border-radius: var(--radius-icon); transition: background .16s; }
 .site:hover { background: var(--sidebar-raised); }
 .site.selected { border: 0; background: var(--accent); box-shadow: none; }
