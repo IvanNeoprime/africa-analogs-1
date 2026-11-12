@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import worker from './dist/server/index.js';
 const results=[];
 async function test(name,fn){try{await fn();results.push({name,status:'PASS'});console.log('PASS: '+name)}catch(e){results.push({name,status:'FAIL',error:e.message});console.log('FAIL: '+name+' / '+e.message)}}
-const browser=await chromium.launch({executablePath:chromium.executablePath(),headless:true});
+const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
 try{
 const page=await browser.newPage({viewport:{width:1440,height:1000}});page.setDefaultTimeout(10000);const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('**/api/chat',async route=>{const response=await worker.fetch(new Request('https://local/api/chat',{method:'POST',body:route.request().postData()}),{});await route.fulfill({status:response.status,contentType:'application/json',body:await response.text()})});await page.goto('http://localhost:4173');
 await test('Página e catálogo SADC inicial',async()=>{assert.equal(await page.title(),'Africa Analogs · Explorador planetário');assert.equal(await page.locator('.site').count(),18);assert.equal(await page.locator('#country option').count(),17);assert.equal(await page.locator('.ring').innerText(),'1');assert.equal(await page.locator('.atlas-marker').count(),18)});

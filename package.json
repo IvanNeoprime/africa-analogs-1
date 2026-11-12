@@ -11,7 +11,6 @@
     "test": "node test.mjs",
     "test:design": "node design-check.mjs",
     "test:nasa": "node nasa-check.mjs",
-    "test:nasa-api": "node nasa-api-check.mjs",
     "nasa:catalog": "node science/download-nasa-catalog.mjs",
     "nasa:check": "node science/check-nasa-live.mjs",
     "test:science": "node science/test.mjs",
